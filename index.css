@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap");
+body{
+    background-image: url("bg-cover.png");
+}
+@media (min-width: 500px) {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-content: center;
+    }
+  }
+  .container{
+    height: 705px;
+    width: 1152px;
+    margin-left: 20px;
+  }
+  .image{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+  }
+  .card {
+    display: flex; 
+    flex-direction: column; 
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: space-between;
+    height: 250px;
+    width:250px;
+    background-image: url("wheel-bg.jpg");
+  }
+  .card__content {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .card{
+    margin-top:30px;
+    margin-left:30px;
+  }
+  .arrow{
+    border-radius: 40%;
+  }
+  @media only screen and (max-width: 576px) {
+    div.content {
+      width: 300px;
+      font-style: italic;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+  div.content {
+    width: 1000px;
+    font-style: italic;
+  }
+}
+
+
